@@ -1,0 +1,134 @@
+*{margin: 0px; padding: 0px; font-size: 10px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; list-style-type: none; text-decoration: none;}
+
+body{
+    background: #fff url(../media/bg.png);
+    margin: 15px;
+}
+#container{
+    background:#ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+/*I/Area do Cabeçalho*/
+#topo{
+    height: 24.6em;
+    min-height: 250px;
+    position:relative;
+}
+
+/*I/Logo*/
+#logo-area{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: url(../media/topo-imagem-principal.png) no-repeat;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 151px;
+    height: 66px;
+    z-index: 3;
+    text-indent: -9000px;
+    background: url(../media/logo.png) no-repeat;
+}
+/*F-Logo*/
+/*I-Area de menus*/
+#menu-area{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    background: url(../media/topo-imagem-lateral.png);
+}
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top:15px;
+}
+
+/*I-Menu-reservas*/
+#menu-locais{
+    width: 335px;
+    padding: 5px 0;
+    border-top:1px solid rgb(128, 128, 128, 0.6);
+    border-bottom: 1px solid rgb(128, 128, 128, 0.6);
+}
+#menu-locais ul li{
+    float: left;
+    font-size: 1.2em;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#menu-locais ul li:hover{
+    font-size: 1.3em;
+    color: rgb(134, 134, 134);
+}
+#menu-locais ul li:first-child{
+    border-left: none;
+    border-right: 1px solid rgba(128, 128, 128, 0.7);
+}
+#menu-locais ul li:last-child{
+    border-right: none;
+    border-left: 1px solid rgba(128, 128, 128, 0.7);
+}
+#menu-locais button{
+    margin-left: 20px;
+    border: none;
+    padding: 5px;
+    background: #af9f25;
+    transition: 0.25s;
+}
+#menu-locais button:hover{
+    padding: 5px 7px;
+    background: #ffe945;
+}
+#menu-locais button a{
+    font-size: 1.3em;
+    padding: 5px;
+    font-weight: 500;
+    color: white;
+}
+#menu-locais button a:hover{
+    color: rgb(0, 0, 0);
+}
+/*F-Menu-reservas*/
+
+/*I-navegação*/
+#menu{
+    margin-top: 15px;
+}
+#navegacao ul{
+    float: left;
+}
+#navegacao ul a{
+    text-transform: uppercase;
+    font-size: 1.6em;
+    line-height: 30px;
+    color: #6e672c;
+    transition: 0.25s;
+}
+.depoimento{
+    float: right;
+    width: 226px;
+    height: 164px;
+}
+
+#navegacao ul a:hover{
+    color: rgb(0, 0, 0);
+    background: #ede9cc;
+    padding: 7px 4px;
+}
+/*F-navegação*/
+
+/*F-Area de menus*/
+
+/*F/Area do Cabeçalho*/
+
