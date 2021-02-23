@@ -5,7 +5,7 @@ body{
     margin: 15px;
 }
 #container{
-    background:#ede9cc;
+    background:#ede9cc url(../media/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -115,16 +115,16 @@ body{
     color: #6e672c;
     transition: 0.25s;
 }
-.depoimento{
-    float: right;
-    width: 226px;
-    height: 164px;
-}
-
 #navegacao ul a:hover{
     color: rgb(0, 0, 0);
-    background: #ede9cc;
+    
+    font-weight: 600;
     padding: 7px 4px;
+}
+.depoimento{
+    float: right;
+    width: 220px;
+    height: 164px;
 }
 /*F-navegação*/
 
@@ -132,3 +132,35 @@ body{
 
 /*F/Area do Cabeçalho*/
 
+/*I-Area de conteudo*/
+#area-principal{
+    float: left;
+    width: 50%;
+    padding: 10px 2px;
+}
+#area-principal h2{
+    padding-bottom: 5px;
+    color: #af9f25;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+#area-principal p{
+    font-size: 1.5em;
+    padding: 5px 0;
+    text-align: justify;
+}
+#area-lateral{
+    float: right;
+    width: 50%;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+/*F-Area de conteudo*/
+
+/*I-Rodape*/
+footer{
+    clear:both;
+}
+/*F*rodape*/
