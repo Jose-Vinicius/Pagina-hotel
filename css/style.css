@@ -60,24 +60,22 @@ body{
     border-top:1px solid rgb(128, 128, 128, 0.6);
     border-bottom: 1px solid rgb(128, 128, 128, 0.6);
 }
-#menu-locais ul li{
+#menu-locais ul li a{
+    color: #7d7640;
     float: left;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 5px;
     cursor: pointer;
     transition: 0.25s;
 }
-#menu-locais ul li:hover{
-    font-size: 1.3em;
-    color: rgb(134, 134, 134);
+#menu-locais ul li a:hover{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #49441c;
 }
-#menu-locais ul li:first-child{
-    border-left: none;
-    border-right: 1px solid rgba(128, 128, 128, 0.7);
-}
-#menu-locais ul li:last-child{
-    border-right: none;
+#menu-locais #second-child a{
     border-left: 1px solid rgba(128, 128, 128, 0.7);
+    border-right: 1px solid rgba(128, 128, 128, 0.7);
 }
 #menu-locais button{
     margin-left: 20px;
@@ -98,6 +96,10 @@ body{
 }
 #menu-locais button a:hover{
     color: rgb(0, 0, 0);
+}
+.selected{
+    font-size: 1.3em;
+    font-weight: 500;
 }
 /*F-Menu-reservas*/
 
@@ -136,7 +138,8 @@ body{
 #area-principal{
     float: left;
     width: 50%;
-    padding: 10px 2px;
+    padding: 15px 0px;
+    background: url(../media/bg-area-principal.png) left top repeat-x;
 }
 #area-principal h2{
     padding-bottom: 5px;
@@ -152,15 +155,76 @@ body{
 #area-lateral{
     float: right;
     width: 50%;
+    padding: 15px 0px;
+    background: url(../media/bg-area-lateral.png) left top repeat-x;
 }
 .conteudo{
     margin: 0 auto;
     width: 90%;
 }
+    /*I-artigos*/
+.previa{
+    padding: 30px 0;
+    border-bottom: 2px solid #ede9cc;
+    line-height: 80px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.previa a{text-decoration: none;}
+.previa:hover{
+    background: #ede9cc;
+}
+.previa img{
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+.previa h2{
+    font-size: 2.5em;
+    color: #7d7640;
+    line-height: 60px;
+    margin-left: 15px;
+    margin-top: -15px;
+    background: url(../media/ornamento.png) no-repeat center right;
+}
+.previa p{
+    font-size:1.6em;
+    font-weight: 500;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.previa a{
+    color: #000000;
+}
+    /*F-artigos*/
 /*F-Area de conteudo*/
 
 /*I-Rodape*/
 footer{
     clear:both;
+    text-align: center;
+    padding:16px;
+    background: #fff url(../media/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    padding-top: 41px;
+}
+footer span{
+    font-size: 2.0em;
+    font-weight: 600;
+}
+footer span a{
+    color: #978f50;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.25s;
+}
+footer span a:hover{
+    color: #000000;
 }
 /*F*rodape*/
+
+/*******Area filiados********/
+
+#area-filiais{
+    background: no-repeat ;
+}
