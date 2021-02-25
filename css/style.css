@@ -119,7 +119,6 @@ body{
 }
 #navegacao ul a:hover{
     color: rgb(0, 0, 0);
-    
     font-weight: 600;
     padding: 7px 4px;
 }
@@ -225,6 +224,53 @@ footer span a:hover{
 
 /*******Area filiados********/
 
+#container-locais{
+    background:#ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
 #area-filiais{
-    background: no-repeat ;
+    margin: 0 auto;
+    width: 920px;
+}
+#area-filiais div:first-of-type{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+}
+#area-filiais div.sl{
+    border: none;
+
+}
+#area-filiais div p{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 5px;
+}
+#area-filiais h1{
+    font-size: 3em;
+    padding: 15px 0;
+}
+#area-filiais p a,#area-filiais p a:visited{
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #313131;
+    transition: 0.25s;
+}
+#area-filiais p a:hover, #area-filiais p a:visited:hover{
+    color: #000000;
+}
+#area-filiais div img{
+    width: 920px;
+    margin:20px 0;
+    transition: 0.1s;
+}
+#area-filiais div img:hover{
+    width: 921px;
+}
+
+/*******Area outras pagina********/
+#navegacao .selecionado a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 7px 5px;
 }
