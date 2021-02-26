@@ -224,7 +224,7 @@ footer span a:hover{
 
 /*******Area filiados********/
 
-#container-locais, #container-pg{
+#container-locais, #container-pg, #container-reserva{
     background:#ede9cc;
     margin: 0 auto;
     min-width: 740px;
@@ -293,5 +293,14 @@ footer span a:hover{
     font-size: 2em;
     font-weight: 600;
     color: black;
-
 }
+#container-pg section div h1, #container-pg section div a{
+    font-size:1.8em;
+    padding:10px;
+}
+#container-pg section div{
+    margin-bottom: 35px;
+}
+
+/** Area de reserva **/
+
