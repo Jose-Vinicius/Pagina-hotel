@@ -81,6 +81,7 @@ body{
     margin-left: 20px;
     border: none;
     padding: 5px;
+    outline:none;
     background: #af9f25;
     transition: 0.25s;
 }
@@ -224,7 +225,7 @@ footer span a:hover{
 
 /*******Area filiados********/
 
-#container-locais, #container-pg, #container-reserva{
+#container-locais, #container-pg{
     background:#ede9cc;
     margin: 0 auto;
     min-width: 740px;
@@ -304,3 +305,123 @@ footer span a:hover{
 
 /** Area de reserva **/
 
+#container-reserva{
+    background:#ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+#formulario form{
+    width: 1180px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#formulario form div{
+    margin: 0 auto;
+}
+
+#formulario form input{
+    border:none;
+    outline:none;
+    margin:10px 0;
+}
+
+#formulario form #clientes{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+
+#formulario form div .nomes{
+    display:flex;
+    flex-direction:row;
+    padding: 5px 0;
+    margin: 0 0;
+}
+
+#formulario form div .nomes input{
+    width: 250px;
+    height: 15px;
+    margin: 0 10px;
+ }
+
+ #formulario form div .idc, #formulario form div .contato{
+    display:flex;
+    flex-direction:row;
+    padding: 5px 0;
+    margin: 0 0;
+}
+
+#formulario form div .idc input, #formulario form div .contato input{
+    width: 240px;
+    height: 15px;
+    margin: 0 10px;
+ }
+
+ #formulario form div .contato #tel{
+    width: 170px;
+    height: 15px;
+    margin: 0 10px;
+ }
+
+/*area do hotel/pagamento*/
+
+#formulario form #hotel{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+
+#formulario form #hotel .fp{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 0 10px;
+}
+
+#formulario form #hotel .fp #pessoas, #formulario form #hotel .fp label{
+    margin: 0 8px 0 8px;
+}
+
+#formulario form #hotel .fp .m-none{
+    margin-left: 0px;
+}
+
+#formulario form #hotel .md{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 20px;
+    margin: 0 0;
+}
+
+#formulario form #hotel .md input{
+    margin: 0 0 0 8px;
+    padding: 0 10px;
+}
+
+#formulario form #hotel .md #t-quarto{
+    margin-right: 10px;
+}
+
+/****Pagamentos****/
+
+#formulario form #hotel h1{
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+#formulario form #hotel #b-card{
+    width: 300px;
+}
+
+#formulario form #hotel #m-pag{
+    margin: 10px 0;
+}
+
+#formulario form #hotel #n-d input{
+    
+}

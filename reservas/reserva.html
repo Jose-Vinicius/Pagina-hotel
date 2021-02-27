@@ -40,36 +40,97 @@
             </div> <!--F-Area de navegação-->
         </header> <!--F/topo-->
              <!--I-Conteudo-->
-        <section>
+        <section id="formulario">
             <form action="">
-                <div> <!--Cliente-->
-                    <label for="f-name">Seu Primerio nome:</label>
-                    <input type="text" name="nome" id="f-name">
+                <div id="clientes"> <!--Cliente-->
+                    <div class="nomes">
+                        <label for="f-name">Nome:</label>
+                        <input type="text" name="nome" id="f-name">
 
-                    <label for="s-name">Sobrenome</label>
-                    <input type="text" name="sobrenome" id="s-name">
+                        <label for="s-name">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="s-name">
+                    </div>
 
-                    <label for="age">Idade</label>
-                    <input type="text" name="idade" id="age">
+                    <div class="idc">
+                        <label for="age">Idade</label>
+                        <input type="number" name="idade" id="age" min="0">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf">
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    </div>
 
-                    
+                    <div class="contato">
+                        <label for="tel">Telefone de contato:</label>
+                        <input type="tel" name="telefone" id="tel">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
                 </div>
-                nome
-                sobrenome
-                idade
-                email
-                <div> <!--Hotel-->
+                <div id="hotel"> <!--Hotel-->
 
+                    <div class="fp">
+                        <label for="filial" class="m-none">Em qual cidade você quer se hospedar:</label>
+                        <select name="qual-filial" id="filial">
+                            <option value="null">--Selecione a cidade--</option>
+                            <option value="bh">Belo horizonte</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="sp">São paulo</option>
+                        </select>
+                        <label for="pessoas">Quantidade de pessoas que iram se hospedar:</label>
+                        <select name="pessoas" id="pessoas">
+                            <option value="null">--Selecione a Quantidade--</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                        </select>
+                    </div>
+
+                    <div class="md">
+                        <label for="t-quarto">Modelo do quarto:</label>
+                        <select name="modelo-quarto" id="t-quarto">
+                            <option value="null">--Selecione o modelo--</option>
+                            <option value="b">Basico</option>
+                            <option value="sl">Suite de luxo</option>
+                            <option value="c">Cobertura</option>
+                            <option value="qp">Quarto presidencial</option>
+                        </select>
+
+                        <label for="estada">Dias de estada</label>
+                        <input type="number" name="dias-de-estada" id="estada" min="0">
+                    </div>
+
+                    <h1>Metodo de pagamento</h1>
+
+                    <label for="b-card">Bandeira do cartão:</label>
+                    <select name="bandeira cartão" id="b-card">
+                        <option value="null">--Selecione o modelo--</option>
+                        <option value="b">Visa</option>
+                        <option value="sl">Master Card</option>
+                        <option value="c">Elo</option>
+                        <option value="qp">HiperCard</option>
+                    </select>
+
+                    <label for="m-pag">
+                        <input type="radio" name="metodo de pagamento" id="m-pag"> cartão de debito
+                    </label>
+                    <label for="m-pag">
+                        <input type="radio" name="metodo de pagamento" id=  "m-pag"> cartão de credito
+                    </label>
+
+                    <label for="n-titular">Nome do titular</label>
+                    <input type="text" name="" id="n-titular">
+
+                    <div class="n-d">
+                        <label for="n-card"> Numero do cartão</label>
+                        <input type="number" name="numero cartao" id="n-card">
+                        <label for="">Data de Vencimento</label>
+                        <input type="month" name="mes" id="m-venc">
+                    </div>
                 </div>
-                cpf
-                q filial
-                quantidade de pessoas 
-                tipo do quarto
-                dias de estada
-                metodo de pagamento 
+                
             </form>
         </section>
 
