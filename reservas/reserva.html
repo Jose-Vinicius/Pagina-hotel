@@ -70,14 +70,14 @@
                 <div id="hotel"> <!--Hotel-->
 
                     <div class="fp">
-                        <label for="filial" class="m-none">Em qual cidade você quer se hospedar:</label>
+                        <label for="filial" class="m-none">Em qual cidade você quer se hospedar:</label> <br>
                         <select name="qual-filial" id="filial">
                             <option value="null">--Selecione a cidade--</option>
                             <option value="bh">Belo horizonte</option>
                             <option value="rj">Rio de Janeiro</option>
                             <option value="sp">São paulo</option>
                         </select>
-                        <label for="pessoas">Quantidade de pessoas que iram se hospedar:</label>
+                        <label for="pessoas">Quantidade de pessoas que iram se hospedar:</label> <br>
                         <select name="pessoas" id="pessoas">
                             <option value="null">--Selecione a Quantidade--</option>
                             <option value="one">1</option>
@@ -120,8 +120,10 @@
                         <input type="radio" name="metodo de pagamento" id=  "m-pag"> cartão de credito
                     </label>
 
-                    <label for="n-titular">Nome do titular</label>
-                    <input type="text" name="" id="n-titular">
+                    <div id="n-titular">
+                        <label for="n-titular">Nome do titular</label>      
+                        <input type="text" name="" id="n-titular"> 
+                    </div>
 
                     <div class="n-d">
                         <label for="n-card"> Numero do cartão</label>

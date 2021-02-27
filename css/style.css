@@ -327,6 +327,11 @@ footer span a:hover{
     border:none;
     outline:none;
     margin:10px 0;
+    padding: 5px;
+}
+
+#formulario form label{
+    font-size: 1.8em;
 }
 
 #formulario form #clientes{
@@ -377,8 +382,9 @@ footer span a:hover{
 
 #formulario form #hotel .fp{
     display: flex;
-    flex-direction: row;
-    width: 800px;
+    flex-direction: column;
+    width: 400px;
+    padding:;
     margin: 0 0 10px;
 }
 
@@ -422,6 +428,18 @@ footer span a:hover{
     margin: 10px 0;
 }
 
-#formulario form #hotel #n-d input{
-    
+#formulario form #hotel .n-d{
+    margin: 0px;
+}
+#formulario form #hotel .n-d input, #formulario form #hotel .n-d label{
+    margin-right: 10px;
+}
+
+#formulario form #hotel #n-titular{
+    width: 200px;
+    margin: 5px 0px;
+}
+
+#formulario form #hotel #n-titular input{ 
+    margin: 5px 0px;
 }
